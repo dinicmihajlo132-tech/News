@@ -1,0 +1,21 @@
+{
+  "name": "crypto-news-bot",
+  "version": "1.0.0",
+  "description": "Crypto news aggregator with duplicate detection",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "grammy": "^1.38.3",
+    "input": "^1.0.1",
+    "openai": "^4.47.1",
+    "telegram": "^2.26.22",
+    "twitter-api-v2": "^1.27.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
